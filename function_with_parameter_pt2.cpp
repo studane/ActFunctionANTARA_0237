@@ -6,5 +6,10 @@ float HitungRerataBerparameter(float x, float y){
 }
 
 string CekStatusBerparameter(float a){
-    
+    if (a > 60 ){
+        return "Lulus";
+    }
+    else{
+        return "Tidak Lulus";
+    }
 }
