@@ -20,3 +20,9 @@ void output()
 {
     cout << "Hasilnya : " << luasPersegi();
 }
+
+int main()
+{
+    input();
+    output();
+}
